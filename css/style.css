@@ -1,0 +1,88 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-inner, .carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contact {
+  background-color: #eff2f5;
+}
+
+.ideas {
+  color: #fff;
+}
+
+.ideas h5 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.carousel-caption {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  right: auto;
+  bottom: auto;
+}
+
+.carousel-caption h3 {
+  font-size: 75px;
+}
+
+.carousel-caption h4 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.card-body.position-absolute h5 {
+  width: 100%;
+}
+
+.footer {
+  background-color: #d0dbe1;
+}
+
+.social-media {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.social-media i {
+  padding: 12px 10px 12px 0;
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .carousel-caption h3 {
+    font-size: 55px;
+  }
+  .ideas h5 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
+/*# sourceMappingURL=style.css.map */
